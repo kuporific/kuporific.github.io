@@ -1,0 +1,93 @@
+body {
+    font-family: "Helvetica", sans-serif;
+    max-width: 7.5in;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    margin: .25em auto;
+    font-size: 18pt;
+}
+
+h2, h3 {
+    background-color: #DDD;
+    font-size: 14pt;
+}
+
+h2 {
+    margin: 1em 0 0.25em 0;
+}
+
+ul {
+    margin: 0.25em 0 0 0;
+}
+
+.blog-plug {
+    text-align: center;
+    font-size: smaller;
+    margin: 0;
+}
+
+.event {
+    margin: 1em 0 0 0;
+}
+
+h2 + .event {
+    margin: 0;
+}
+
+.title {
+    width: 100%;
+}
+
+.date-start {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.date-end {
+    text-align: left;
+    white-space: nowrap;
+}
+
+table.titles {
+    padding: 0;
+}
+
+table.titles td {
+    padding: 0;
+}
+
+.container {
+    display: table;
+    width: 100%;
+}
+
+.row {
+    display: table-row;
+}
+
+.left {
+    display: table-cell;
+    float: left;
+}
+
+.right {
+    display: table-cell;
+    float: right;
+}
+
+.employer {
+    font-weight: bold;
+}
+
+table.skills {
+    border-collapse: collapse;
+}
+
+th.skills {
+    text-align: left;
+    padding: 0 1em 0 0;
+}
+
